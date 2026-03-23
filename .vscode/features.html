@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartFarm- features</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+    }
+    h1, h2, h3 {
+      font-family: 'Playfair Display', serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-50">
+
+<!-- Navbar -->
+<nav class="bg-white shadow-sm sticky top-0 z-50">
+  <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+    <div class="flex items-center gap-3">
+      <i class="fa-solid fa-tractor text-4xl text-green-700"></i>
+      <span class="text-3xl font-extrabold text-green-800 tracking-tight">SmartFarm</span>
+    </div>
+
+    <div class="hidden md:flex items-center gap-10 text-base font-medium text-gray-700">
+      <a href="1-index.html" class="hover:text-green-700 transition">Home</a>
+      <a href="2-features.html" class="text-green-700 font-semibold">Features</a>
+      <a href="3-stock.html" class="hover:text-green-700 transition">Crops & Animals</a>
+      <a href="4-inventory.html" class="hover:text-green-700 transition">inventory</a>
+      <a href="5-finance.html" class="hover:text-green-700 transition">finance</a>
+    </div>
+
+    <button class="md:hidden text-3xl text-green-700">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="bg-gradient-to-br from-green-50 to-white py-20 md:py-32 text-center">
+  <div class="max-w-6xl mx-auto px-6">
+    <h1 class="text-5xl md:text-7xl font-extrabold text-green-900 leading-tight mb-6">
+      Powerful features.<br>Built for real farms.
+    </h1>
+    <p class="text-xl md:text-2xl text-gray-700 max-w-4xl mx-auto mb-12">
+      One dashboard. Everything you need to manage finances, crops, livestock, inventory, tasks and more — without complexity.
+    </p>
+  </div>
+</section>
+
+<!-- Features Grid -->
+<section class="py-20 bg-white">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="text-center mb-16">
+      <h2 class="text-5xl font-bold text-green-900 mb-5">Core Capabilities</h2>
+      <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+        Designed for farmers who want results — not another complicated app.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+
+      <!-- Finance -->
+      <div class="group bg-gray-50 rounded-3xl p-8 shadow hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-green-300">
+        <div class="text-green-600 text-6xl mb-6 group-hover:scale-110 transition-transform">
+          <i class="fa-solid fa-wallet"></i>
+        </div>
+        <h3 class="text-3xl font-bold text-green-900 mb-4">Farm Finance</h3>
+        <p class="text-gray-700 text-lg">
+          Track every rupee — income, expenses, categories, net profit. Instant charts. Know your true margins.
+        </p>
+      </div>
+
+      <!-- Crops -->
+      <div class="group bg-gray-50 rounded-3xl p-8 shadow hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-green-300">
+        <div class="text-green-600 text-6xl mb-6 group-hover:scale-110 transition-transform">
+          <i class="fa-solid fa-seedling"></i>
+        </div>
+        <h3 class="text-3xl font-bold text-green-900 mb-4">Crop Planning</h3>
+        <p class="text-gray-700 text-lg">
+          Record fields, planting dates, varieties, expected harvest. Track progress stages and plan rotations.
+        </p>
+      </div>
+
+      <!-- Livestock -->
+      <div class="group bg-gray-50 rounded-3xl p-8 shadow hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-green-300">
+        <div class="text-green-600 text-6xl mb-6 group-hover:scale-110 transition-transform">
+          <i class="fa-solid fa-cow"></i>
+        </div>
+        <h3 class="text-3xl font-bold text-green-900 mb-4">Livestock Records</h3>
+        <p class="text-gray-700 text-lg">
+          Tag animals, track counts, births, health events, milk/meat production and breeding history.
+        </p>
+      </div>
+
+      <!-- Inventory -->
+      <div class="group bg-gray-50 rounded-3xl p-8 shadow hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-green-300">
+        <div class="text-green-600 text-6xl mb-6 group-hover:scale-110 transition-transform">
+          <i class="fa-solid fa-boxes-stacked"></i>
+        </div>
+        <h3 class="text-3xl font-bold text-green-900 mb-4">Inputs & Inventory</h3>
+        <p class="text-gray-700 text-lg">
+          Monitor fertilizer, seeds, fuel, pesticides. Low-stock alerts. Price trend graphs to time bulk buys.
+        </p>
+      </div>
+
+      <!-- Incidents -->
+      <div class="group bg-gray-50 rounded-3xl p-8 shadow hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-green-300">
+        <div class="text-green-600 text-6xl mb-6 group-hover:scale-110 transition-transform">
+          <i class="fa-solid fa-bug"></i>
+        </div>
+        <h3 class="text-3xl font-bold text-green-900 mb-4">Pest & Problem Log</h3>
+        <p class="text-gray-700 text-lg">
+          Record outbreaks, treatments applied, effectiveness. Build knowledge that saves future crops and animals.
+        </p>
+      </div>
+
+      <!-- Offline -->
+      <div class="group bg-gray-50 rounded-3xl p-8 shadow hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-green-300">
+        <div class="text-green-600 text-6xl mb-6 group-hover:scale-110 transition-transform">
+          <i class="fa-solid fa-mobile-screen"></i>
+        </div>
+        <h3 class="text-3xl font-bold text-green-900 mb-4">Works Offline</h3>
+        <p class="text-gray-700 text-lg">
+          Full functionality on phone/tablet — even in the field with no signal. Data stays safe on your device.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="bg-green-700 text-white py-24 text-center">
+  <div class="max-w-5xl mx-auto px-6">
+    <h2 class="text-5xl md:text-6xl font-bold mb-8">
+      Ready to run your farm smarter?
+    </h2>
+    <p class="text-2xl mb-12 opacity-90 max-w-3xl mx-auto">
+      Start in seconds — no account, no credit card, no complexity.
+    </p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-900 text-gray-300 py-16">
+  <div class="max-w-7xl mx-auto px-6 text-center">
+    <p class="text-xl mb-6">
+      SmartFarm • Made for farmers who want results, not admin work.
+    </p>
+    <p class="text-sm opacity-70">
+      © 2026 SmartFarm • Open-source project for smarter, more profitable farming
+    </p>
+  </div>
+</footer>
+    
+</body>
+</html>
